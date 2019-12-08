@@ -1,0 +1,69 @@
+Running: F:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o F:/Project/mips-p7/test_isim_beh.exe -prj F:/Project/mips-p7/test_beh.prj work.test work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/Project/mips-p7/mips.v" into library work
+WARNING:HDLCompiler:572 - "branchctl.v" Line 21: Macro <BEQ> is redefined.
+WARNING:HDLCompiler:572 - "branchctl.v" Line 22: Macro <BNE> is redefined.
+WARNING:HDLCompiler:572 - "branchctl.v" Line 23: Macro <BLEZ> is redefined.
+WARNING:HDLCompiler:572 - "branchctl.v" Line 24: Macro <BGEZ> is redefined.
+WARNING:HDLCompiler:572 - "branchctl.v" Line 25: Macro <BLTZ> is redefined.
+WARNING:HDLCompiler:572 - "branchctl.v" Line 26: Macro <BGTZ> is redefined.
+WARNING:HDLCompiler:572 - "hazardunit.v" Line 37: Macro <RTYPE> is redefined.
+WARNING:HDLCompiler:572 - "hazardunit.v" Line 38: Macro <MFHI> is redefined.
+WARNING:HDLCompiler:572 - "hazardunit.v" Line 39: Macro <MFLO> is redefined.
+WARNING:HDLCompiler:572 - "hazardunit.v" Line 40: Macro <MTHI> is redefined.
+WARNING:HDLCompiler:572 - "hazardunit.v" Line 41: Macro <MTLO> is redefined.
+WARNING:HDLCompiler:572 - "hazardunit.v" Line 42: Macro <MULT> is redefined.
+WARNING:HDLCompiler:572 - "hazardunit.v" Line 43: Macro <MULTU> is redefined.
+WARNING:HDLCompiler:572 - "hazardunit.v" Line 44: Macro <DIV> is redefined.
+WARNING:HDLCompiler:572 - "hazardunit.v" Line 45: Macro <DIVU> is redefined.
+WARNING:HDLCompiler:35 - "cpu.v" Line 130: <ERET_FLUSH> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "cpu.v" Line 146: <EX_D> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "cpu.v" Line 288: <DM_WE_E> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "cpu.v" Line 295: <INST_M> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "cpu.v" Line 356: <CP0_WE> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "cpu.v" Line 359: <CP0_IRQ> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "cpu.v" Line 385: <INST_W> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "cpu.v" Line 410: <CTL_NPCSEL_W> is already implicitly declared earlier.
+Analyzing Verilog file "F:/Project/mips-p7/test.v" into library work
+Analyzing Verilog file "F:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "cpu.v" Line 132: Port RSD_I is not connected to this instance
+WARNING:HDLCompiler:1016 - "cpu.v" Line 179: Port comp_l is not connected to this instance
+WARNING:HDLCompiler:1016 - "cpu.v" Line 212: Port GPR_WE is not connected to this instance
+WARNING:HDLCompiler:1016 - "cpu.v" Line 227: Port ALURES_I is not connected to this instance
+WARNING:HDLCompiler:1016 - "cpu.v" Line 276: Port ext_sel is not connected to this instance
+WARNING:HDLCompiler:1016 - "cpu.v" Line 300: Port RSD_I is not connected to this instance
+WARNING:HDLCompiler:1016 - "cpu.v" Line 344: Port use_imm is not connected to this instance
+WARNING:HDLCompiler:1016 - "cpu.v" Line 390: Port RSD_I is not connected to this instance
+WARNING:HDLCompiler:1016 - "cpu.v" Line 411: Port use_imm is not connected to this instance
+Completed static elaboration
+Compiling module hazardunit
+Compiling module pcmodule
+Compiling module IM
+Compiling module pipeline_reg
+Compiling module GPR
+Compiling module extender
+Compiling module comparator
+Compiling module branchctl
+Compiling module npc
+Compiling module controller
+Compiling module ALU
+Compiling module MDU
+Compiling module DM
+Compiling module cp0
+Compiling module DMext
+Compiling module cpu
+Compiling module timer
+Compiling module bridge
+Compiling module mips
+Compiling module test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 14 sub-compilation(s) to finish...
+Compiled 21 Verilog Units
+Built simulation executable F:/Project/mips-p7/test_isim_beh.exe
+Fuse Memory Usage: 36332 KB
+Fuse CPU Usage: 827 ms

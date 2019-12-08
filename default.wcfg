@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="F:/Project/mips-p7/test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/CPU/CP0_IRQ" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">CP0_IRQ</obj_property>
+      <obj_property name="ObjectShortName">CP0_IRQ</obj_property>
+      <obj_property name="label">CP0_IRQ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/CPU/INST_M" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">INST_M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">INST_M[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/CPU/INST_E" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">INST_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">INST_E[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/CPU/INST_D" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">INST_D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">INST_D[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/CPU/INST_F" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">INST_F[31:0]</obj_property>
+      <obj_property name="ObjectShortName">INST_F[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/CPU/uPC/PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/CPU/CP0/EPC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">EPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EPC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/CPU/intr_bridge" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">intr_bridge[5:0]</obj_property>
+      <obj_property name="ObjectShortName">intr_bridge[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/CPU/CP0/BD" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">BD</obj_property>
+      <obj_property name="ObjectShortName">BD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Bridge/TC0/IRQ" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">IRQ</obj_property>
+      <obj_property name="ObjectShortName">IRQ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Bridge/TC0/count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">count[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/CPU/RTD_M" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RTD_M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RTD_M[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/CPU/uPC/WD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WD[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/CPU/PC_WD_D" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC_WD_D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_WD_D[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/CPU/FORWARD_ERET" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">FORWARD_ERET</obj_property>
+      <obj_property name="ObjectShortName">FORWARD_ERET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Bridge/TC0/count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">count[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

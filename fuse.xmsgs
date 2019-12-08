@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="572" delta="unknown" >"branchctl.v" Line 21: Macro &lt;<arg fmt="%s" index="1">BEQ</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="unknown" >"branchctl.v" Line 22: Macro &lt;<arg fmt="%s" index="1">BNE</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="unknown" >"branchctl.v" Line 23: Macro &lt;<arg fmt="%s" index="1">BLEZ</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="unknown" >"branchctl.v" Line 24: Macro &lt;<arg fmt="%s" index="1">BGEZ</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="unknown" >"branchctl.v" Line 25: Macro &lt;<arg fmt="%s" index="1">BLTZ</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="unknown" >"branchctl.v" Line 26: Macro &lt;<arg fmt="%s" index="1">BGTZ</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="unknown" >"hazardunit.v" Line 37: Macro &lt;<arg fmt="%s" index="1">RTYPE</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="unknown" >"hazardunit.v" Line 38: Macro &lt;<arg fmt="%s" index="1">MFHI</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="unknown" >"hazardunit.v" Line 39: Macro &lt;<arg fmt="%s" index="1">MFLO</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="unknown" >"hazardunit.v" Line 40: Macro &lt;<arg fmt="%s" index="1">MTHI</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="unknown" >"hazardunit.v" Line 41: Macro &lt;<arg fmt="%s" index="1">MTLO</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="unknown" >"hazardunit.v" Line 42: Macro &lt;<arg fmt="%s" index="1">MULT</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="unknown" >"hazardunit.v" Line 43: Macro &lt;<arg fmt="%s" index="1">MULTU</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="unknown" >"hazardunit.v" Line 44: Macro &lt;<arg fmt="%s" index="1">DIV</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="unknown" >"hazardunit.v" Line 45: Macro &lt;<arg fmt="%s" index="1">DIVU</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"cpu.v" Line 130: &lt;<arg fmt="%s" index="1">ERET_FLUSH</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"cpu.v" Line 146: &lt;<arg fmt="%s" index="1">EX_D</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"cpu.v" Line 288: &lt;<arg fmt="%s" index="1">DM_WE_E</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"cpu.v" Line 295: &lt;<arg fmt="%s" index="1">INST_M</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"cpu.v" Line 356: &lt;<arg fmt="%s" index="1">CP0_WE</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"cpu.v" Line 359: &lt;<arg fmt="%s" index="1">CP0_IRQ</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"cpu.v" Line 385: &lt;<arg fmt="%s" index="1">INST_W</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"cpu.v" Line 410: &lt;<arg fmt="%s" index="1">CTL_NPCSEL_W</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"cpu.v" Line 132: Port <arg fmt="%s" index="1">RSD_I</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"cpu.v" Line 179: Port <arg fmt="%s" index="1">comp_l</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"cpu.v" Line 212: Port <arg fmt="%s" index="1">GPR_WE</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"cpu.v" Line 227: Port <arg fmt="%s" index="1">ALURES_I</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"cpu.v" Line 276: Port <arg fmt="%s" index="1">ext_sel</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"cpu.v" Line 300: Port <arg fmt="%s" index="1">RSD_I</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"cpu.v" Line 344: Port <arg fmt="%s" index="1">use_imm</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"cpu.v" Line 390: Port <arg fmt="%s" index="1">RSD_I</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"cpu.v" Line 411: Port <arg fmt="%s" index="1">use_imm</arg> is not connected to this instance
+</msg>
+
+</messages>
+
